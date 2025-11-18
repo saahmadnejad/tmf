@@ -1,0 +1,4 @@
+.openapi-generator
+.idea
+.openapi-generator-ignore
+target
