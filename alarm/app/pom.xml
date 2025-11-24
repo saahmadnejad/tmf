@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.tmf</groupId>
+        <groupId>io.donbee.tmf</groupId>
         <artifactId>alarm</artifactId>
         <version>5.0.1</version>
         <relativePath>../pom.xml</relativePath>

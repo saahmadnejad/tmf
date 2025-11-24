@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>io.donbee.tmf</groupId>
-    <artifactId>tmp-parent</artifactId>
+    <artifactId>tmf-parent</artifactId>
     <version>5.0.1</version>
     <name>parent</name>
     <description>parent</description>
@@ -21,8 +21,6 @@
     </modules>
 
     <properties>
-        <app.version>5.0.1</app.version>
-
         <spring-boot-dependencies.version>3.5.7</spring-boot-dependencies.version>
 
         <java.version>21</java.version>

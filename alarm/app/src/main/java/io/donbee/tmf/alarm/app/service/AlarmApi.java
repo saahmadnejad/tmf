@@ -5,11 +5,10 @@
  */
 package io.donbee.tmf.alarm.app.service;
 
-import io.tmf.alarm.common.model.Alarm;
-import io.tmf.alarm.common.model.AlarmFVO;
-import io.tmf.alarm.common.model.AlarmMVO;
-import io.tmf.alarm.common.model.Error;
-import io.tmf.alarm.common.model.JsonPatch;
+import io.donbee.tmf.alarm.common.model.Alarm;
+import io.donbee.tmf.alarm.common.model.AlarmFVO;
+import io.donbee.tmf.alarm.common.model.AlarmMVO;
+import io.donbee.tmf.alarm.common.model.Error;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.ArraySchema;

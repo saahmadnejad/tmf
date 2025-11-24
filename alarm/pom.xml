@@ -5,12 +5,11 @@
 
     <parent>
         <groupId>io.donbee.tmf</groupId>
-        <artifactId>tmp-parent</artifactId>
+        <artifactId>tmf-parent</artifactId>
         <version>5.0.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>io.tmf</groupId>
     <artifactId>alarm</artifactId>
     <name>alarm</name>
     <description>alarm</description>
@@ -26,7 +25,7 @@
             <dependency>
                 <groupId>io.donbee.tmf.alarm</groupId>
                 <artifactId>alarm-common</artifactId>
-                <version>${app.version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -5,9 +5,9 @@
  */
 package io.donbee.tmf.alarm.app.service;
 
-import io.tmf.alarm.common.model.CommentAlarm;
-import io.tmf.alarm.common.model.CommentAlarmFVO;
-import io.tmf.alarm.common.model.Error;
+import io.donbee.tmf.alarm.common.model.CommentAlarm;
+import io.donbee.tmf.alarm.common.model.CommentAlarmFVO;
+import io.donbee.tmf.alarm.common.model.Error;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
