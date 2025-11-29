@@ -16,15 +16,21 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>app</module>
-        <module>common</module>
+        <module>tmf-alarm-app</module>
+        <module>tmf-alarm-common</module>
+        <module>tmf-alarm-spring-boot-starter</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>io.donbee.tmf.alarm</groupId>
-                <artifactId>alarm-common</artifactId>
+                <artifactId>tmf-alarm-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.donbee.tmf.alarm</groupId>
+                <artifactId>tmf-alarm-spring-boot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
